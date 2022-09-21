@@ -1,0 +1,9 @@
+.env
+txt-str.py
+*.pyc
+mysite.log
+*.md
+mails
+*.txt
+__pycache__/
+*.sqlite3
