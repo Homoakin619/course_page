@@ -35,7 +35,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    'https://fajcourse.herokuapp.com',
+    'https://fajcourses.herokuapp.com',
     'localhost',
 ]
 
@@ -45,7 +45,7 @@ LOGIN_REDIRECT_URL = 'home'
 
 DOMAIN = 'localhost:8000'
 if not DEBUG:
-    DOMAIN = 'fajcourse.herokuapp.com'
+    DOMAIN = 'fajcourses.herokuapp.com'
 
 # Application definition
 
