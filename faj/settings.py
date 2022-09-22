@@ -34,18 +34,16 @@ DEBUG = True
 # DEBUG = False
 
 ALLOWED_HOSTS = [
-    '127.0.0.1',
-    'https://fajcourses.herokuapp.com',
-    'localhost',
+    '*'
 ]
 
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'home'
 
 
-DOMAIN = 'localhost:8000'
-if not DEBUG:
-    DOMAIN = 'fajcourses.herokuapp.com'
+# DOMAIN = 'localhost:8000'
+# if not DEBUG:
+#     DOMAIN = 'fajcourses.herokuapp.com'
 
 # Application definition
 
