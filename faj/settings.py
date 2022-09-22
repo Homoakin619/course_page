@@ -33,8 +33,17 @@ SECRET_KEY = env('SECRET_KEY')
 DEBUG = True
 # DEBUG = False
 
+HEROKU = env('PLATFORM')
+
 ALLOWED_HOSTS = [
     '*'
+]
+
+if HEROKU :
+    ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'fajcourses.herokuapp.com',
+    'localhost'
 ]
 
 LOGIN_URL = 'login'
