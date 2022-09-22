@@ -33,7 +33,8 @@ SECRET_KEY = env('SECRET_KEY')
 DEBUG = True
 # DEBUG = False
 
-HEROKU = True
+# HEROKU = True
+HEROKU = False
 
 ALLOWED_HOSTS = [
     '*'
